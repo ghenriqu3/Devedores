@@ -1,0 +1,239 @@
+{
+  "clients": [
+    {
+      "id": "f4aa",
+      "nome": "joao magro",
+      "data": "2024-02-22",
+      "account": [
+        {
+          "product": "Açucar",
+          "amount": "3",
+          "price": "14.30",
+          "id": "9fc524b9-f790-40dd-ba81-3cb892ff0f68"
+        },
+        {
+          "product": "pão",
+          "amount": "1",
+          "price": "7.50",
+          "id": "80bd13f6-023a-45f3-bc87-6a87d8cc20fe"
+        },
+        {
+          "product": "cuscuz",
+          "amount": "1",
+          "price": "7.40",
+          "id": "ab222588-0481-4321-8b88-2eeaf582ce86"
+        },
+        {
+          "product": "biscoito cream crack",
+          "amount": "0.1",
+          "price": "1.50",
+          "id": "30cb7203-b799-4855-9e53-3b95d1fb7036"
+        },
+        {
+          "product": "23r23",
+          "amount": "2",
+          "price": "50.00",
+          "id": "561d1177-b2c5-4176-9d4b-784e7f471000"
+        },
+        {
+          "product": "goma",
+          "amount": "1",
+          "price": "4.34",
+          "id": "459bfe2f-4fa4-4246-8c37-ac92d9f891b2"
+        },
+        {
+          "product": "feijao",
+          "amount": "2",
+          "price": "16.20",
+          "id": "182803a9-20dc-4e84-8333-ac1404d29935"
+        },
+        {
+          "product": "oleo",
+          "amount": "1",
+          "price": "6.30",
+          "id": "798606e7-ac42-4a3e-88b1-0c623fd048ad"
+        }
+      ]
+    },
+    {
+      "id": "5141",
+      "nome": "Anderson Luis de Souza",
+      "data": "2024-02-29",
+      "account": []
+    },
+    {
+      "id": "845d",
+      "nome": "Anderson",
+      "data": "2024-02-28",
+      "account": []
+    },
+    {
+      "id": "a326",
+      "nome": "pontes",
+      "data": "2024-02-28",
+      "account": [
+        {
+          "product": "Leite de caixa",
+          "amount": "1",
+          "price": "8.80",
+          "id": "08a3217f-e6ef-412a-81a1-9e2eb032daea"
+        },
+        {
+          "product": "aaaa",
+          "amount": "22",
+          "price": "100.00",
+          "id": "bd199179-f38d-410a-9c25-64ae8a810e9a"
+        },
+        {
+          "product": "Despesas",
+          "amount": "1",
+          "price": "90.00",
+          "id": "8229ba71-3ea4-4d50-b3dc-88315559d2ad"
+        },
+        {
+          "product": "ereger",
+          "price": "3443",
+          "amount": "4334",
+          "id": "02ce00a0-d74e-11ee-9245-fbc498acf6d0"
+        }
+      ]
+    },
+    {
+      "id": "138e",
+      "nome": "joao da capadocia",
+      "data": "2024-03-19",
+      "price": 0,
+      "account": []
+    },
+    {
+      "id": "af7c",
+      "nome": "leroy merlin",
+      "data": "2024-03-06",
+      "price": 0,
+      "account": [
+        {
+          "product": "açucar",
+          "amount": "1",
+          "price": "4.00",
+          "id": "061b5a51-a59d-4c0b-91ea-db0aa10a2869"
+        },
+        {
+          "product": "arroz",
+          "amount": "2",
+          "price": "9.34",
+          "id": "98f0faf2-3ecf-46b3-a82a-37e180b7102a"
+        }
+      ]
+    },
+    {
+      "id": "368a",
+      "nome": "ze da esquina",
+      "data": "2024-03-07",
+      "price": 0,
+      "account": []
+    },
+    {
+      "id": "5e46",
+      "nome": "murilo",
+      "cpf": "06955555525",
+      "data": "1222-02-12",
+      "price": 0,
+      "account": []
+    },
+    {
+      "id": "ae30",
+      "nome": "ze da puta que pariu",
+      "cpf": "295849357394",
+      "data": "2024-03-22",
+      "price": 0,
+      "account": [
+        {
+          "product": "Arroz",
+          "amount": "1",
+          "price": "5.00",
+          "id": "c9addedc-cc2e-4e36-b7e3-2bce4e63600a"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "product": "pão",
+      "amount": "1",
+      "price": "7.50",
+      "id": "80bd13f6-023a-45f3-bc87-6a87d8cc20fe"
+    },
+    {
+      "product": "cuscuz",
+      "amount": "1",
+      "price": "7.40",
+      "id": "ab222588-0481-4321-8b88-2eeaf582ce86"
+    },
+    {
+      "product": "biscoito cream crack",
+      "amount": "0.1",
+      "price": "1.50",
+      "id": "30cb7203-b799-4855-9e53-3b95d1fb7036"
+    },
+    {
+      "product": "23r23",
+      "amount": "2",
+      "price": "50.00",
+      "id": "561d1177-b2c5-4176-9d4b-784e7f471000"
+    },
+    {
+      "product": "feijao",
+      "amount": "2",
+      "price": "16.20",
+      "id": "182803a9-20dc-4e84-8333-ac1404d29935"
+    },
+    {
+      "product": "oleo",
+      "amount": "1",
+      "price": "6.30",
+      "id": "798606e7-ac42-4a3e-88b1-0c623fd048ad"
+    },
+    {
+      "product": "Leite de caixa",
+      "amount": "1",
+      "price": "8.80",
+      "id": "08a3217f-e6ef-412a-81a1-9e2eb032daea"
+    },
+    {
+      "product": "aaaa",
+      "amount": "22",
+      "price": "100.00",
+      "id": "bd199179-f38d-410a-9c25-64ae8a810e9a"
+    },
+    {
+      "product": "Despesas",
+      "amount": "1",
+      "price": "90.00",
+      "id": "8229ba71-3ea4-4d50-b3dc-88315559d2ad"
+    },
+    {
+      "product": "ereger",
+      "price": "3443",
+      "amount": "4334",
+      "id": "02ce00a0-d74e-11ee-9245-fbc498acf6d0"
+    },
+    {
+      "product": "açucar",
+      "amount": "1",
+      "price": "4.00",
+      "id": "061b5a51-a59d-4c0b-91ea-db0aa10a2869"
+    },
+    {
+      "product": "arroz",
+      "amount": "2",
+      "price": "9.34",
+      "id": "98f0faf2-3ecf-46b3-a82a-37e180b7102a"
+    },
+    {
+      "product": "Arroz",
+      "amount": "1",
+      "price": "5.00",
+      "id": "c9addedc-cc2e-4e36-b7e3-2bce4e63600a"
+    }
+  ]
+}

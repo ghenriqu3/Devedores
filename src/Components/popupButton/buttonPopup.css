@@ -1,0 +1,10 @@
+.popupButton{
+    padding: 6px 45px;
+    border: none;
+    border-radius: 15px;
+    background-color: #08074A;
+    color: #fff;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 18px;
+}

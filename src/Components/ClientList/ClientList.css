@@ -1,0 +1,44 @@
+.client-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #535151;
+    margin-bottom:10px;
+}
+
+
+
+.action-clients{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    color: #535151;
+}
+
+.action-clients span{
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.action-clients .link {
+    text-decoration: none;
+    color: #a1a1a1;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.action-clients .link:hover{
+    text-decoration: underline;
+    color: #2c2c2c;
+}
+
+.action-clients button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}

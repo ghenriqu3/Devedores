@@ -1,0 +1,3 @@
+{
+    "/clients/:clientId/account/:accountId": "accounts/:accountId"
+}

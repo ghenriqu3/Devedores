@@ -1,0 +1,16 @@
+.main-content{
+    max-width: 1200px;
+    margin: 8em auto;
+}
+
+.content-client{
+    display: flex;
+    justify-content: space-between;
+}
+.content-client h1{
+    color: #000;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+

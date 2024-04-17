@@ -1,0 +1,86 @@
+.register-product{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    top: 0;
+}
+
+.register-product form{
+    margin: 100px auto;
+    border-radius: 18px;
+    background-color: #ffffff;
+    width: 559px;
+    height: 426px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 50px 0px rgba(92, 92, 92, 0.678);
+}
+
+.register-product form h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #2D2F63;
+    font-size: 24px;
+    padding-top: 18px;
+}
+
+.register-product form button{
+    width: 122px;
+    height:43px;
+    border: none;
+    background-color: #04033f;
+    color: #fff;
+    border-radius: 11px;
+    margin-right: 14px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.data{
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data p{
+    font-size: 18px;
+}
+
+.data span{
+    font-size: 24px;
+}
+
+.content-client h1{
+    color: #543CB5;
+    font-family: 'Poppins';
+}
+
+.title-list-product{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 80px auto 40px auto;
+}
+
+.title-list-product span{
+    color: #3154AF;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+form button:nth-last-child(+2){
+    background-color: #e2e2e200;
+    border: 2px solid #ececec;
+    color: #000000;
+    font-weight: 600;
+}

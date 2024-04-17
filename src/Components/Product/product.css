@@ -1,0 +1,47 @@
+table {
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px;
+  border: 1px solid #ebebfa;
+  }
+
+  thead{
+    background-color: #ebebfa;
+  }
+
+  thead tr th{
+    color:#1212b8;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #ebebfa;
+    text-align: center;
+    padding: 20px;
+  }
+  tbody > tr > td{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+  }
+  tbody > tr:hover{
+      background-color: #f8fbff;
+  }
+  
+  .delete-button{
+    border: none;
+    background-color: #Fff;
+  }
+
+  .delete-button:hover{
+    color: #974747;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
