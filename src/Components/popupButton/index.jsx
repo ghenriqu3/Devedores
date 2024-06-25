@@ -9,24 +9,21 @@ function PopupButton({btnText}){
         setOpenModal(true)
     }
 
-    function CreateAccount(client){
-        client.price = 0
-        client.account = []
-        // e.preventDefault()
-        fetch('http://localhost:5001/clients', {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(client),
-        }).then((resp) => resp.json())
-          .then((data) => {
-            // const state = {message: 'Conta criada com sucesso'}
-            // console.log(data, state)
-            setOpenModal(false)
-        })
-        .catch(err => console.log(err))
-    } 
+    const CreateAccount = async (client) => {
+    try {
+        client.price = 0;
+        client.account = [];
+        const response = await fetch('http://localhost:5001/clients', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(client),
+        });
+        const data = await response.json();
+        setOpenModal(false);
+    } catch (error) {
+        console.error(error);
+    }
+    };
     return(
         <div>
             <div>

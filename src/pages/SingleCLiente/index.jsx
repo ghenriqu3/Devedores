@@ -15,26 +15,39 @@ export default function SingleClient({btnText}){
     function handlePopupAccount(){
         setOpenModal(true)
     }
-    
-    
 
-    function addProducts(newProduct){
+
+    function addProducts(newProduct) {
         newProduct.id = uuidv4()
-        accounts.push(newProduct)
-        const updatedAccounts = accounts;
+        const updatedAccount = {
+            ...accounts,
+            account: [...accounts.account, newProduct],
+        };
 
-            fetch(`http://localhost:5001/clients/${accounts.id}`,{
-                method: 'PATCH',
-                headers:{
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(updatedAccounts)
-            }).then(resp => resp.json())
-            .then((data) =>{
-                setAccount(data)
-            }).catch(err => console.log(err))
-            
-    }
+        fetch(`http://localhost:5001/clients/${id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(updatedAccount),
+        })
+        .then(resp => resp.json())
+        .then((data) =>{
+            setAccount(data)
+        }).catch(err => console.log(err))            
+    }   
+
+    // function addProducts(newProduct){
+    //     newProduct.id = uuidv4()
+    //     accounts.push(newProduct)
+    //     const updatedAccounts = accounts;
+
+    //         fetch(`http://localhost:5001/clients/${accounts.id}`,{
+    //             method: 'PATCH',
+    //             headers:{
+    //                 'Content-Type': 'application/json'
+    //             },
+  
 
     useEffect(() => {
         fetch(`http://localhost:5001/clients/${id}`,{

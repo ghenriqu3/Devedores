@@ -52,6 +52,18 @@
           "amount": "1",
           "price": "6.30",
           "id": "798606e7-ac42-4a3e-88b1-0c623fd048ad"
+        },
+        {
+          "product": "dqwdq",
+          "amount": "1212",
+          "price": "123213",
+          "id": "3251c3f2-2d9d-4959-a179-f5062b574bde"
+        },
+        {
+          "product": "teste",
+          "amount": "1",
+          "price": "1.30",
+          "id": "09af059d-f542-4a20-8322-fe3c9658d0d9"
         }
       ]
     },
@@ -141,58 +153,58 @@
       "account": []
     },
     {
-      "id": "ae30",
-      "nome": "ze da puta que pariu",
-      "cpf": "295849357394",
-      "data": "2024-03-22",
+      "id": "1a99",
+      "nome": "carlos",
+      "cpf": "12312312312323",
+      "data": "2024-05-16",
       "price": 0,
       "account": [
         {
-          "product": "Arroz",
+          "product": "oleo",
           "amount": "1",
-          "price": "5.00",
-          "id": "c9addedc-cc2e-4e36-b7e3-2bce4e63600a"
+          "price": "3.40",
+          "id": "b91f81c4-1a7c-430b-826c-02387364726a"
+        }
+      ]
+    },
+    {
+      "id": "7b6a",
+      "nome": "gustavo",
+      "cpf": "06969528316",
+      "data": "2024-06-06",
+      "price": 0,
+      "account": [
+        {
+          "product": "arroz",
+          "amount": "1",
+          "price": "2.30",
+          "id": "aac0c9d4-ce72-4ebf-852a-aa582d288358"
+        }
+      ]
+    },
+    {
+      "id": "d8b6",
+      "nome": "joao",
+      "cpf": "2345677474",
+      "data": "2024-06-19",
+      "price": 0,
+      "account": [
+        {
+          "product": "arroz",
+          "amount": "1",
+          "price": "6.40",
+          "id": "b19a2439-1877-4da8-82dc-56d9a64d9e46"
+        },
+        {
+          "product": "oleo",
+          "amount": "2",
+          "price": "10.30",
+          "id": "6010bc34-dd1f-4836-961c-185cdc7da5a2"
         }
       ]
     }
   ],
   "accounts": [
-    {
-      "product": "pão",
-      "amount": "1",
-      "price": "7.50",
-      "id": "80bd13f6-023a-45f3-bc87-6a87d8cc20fe"
-    },
-    {
-      "product": "cuscuz",
-      "amount": "1",
-      "price": "7.40",
-      "id": "ab222588-0481-4321-8b88-2eeaf582ce86"
-    },
-    {
-      "product": "biscoito cream crack",
-      "amount": "0.1",
-      "price": "1.50",
-      "id": "30cb7203-b799-4855-9e53-3b95d1fb7036"
-    },
-    {
-      "product": "23r23",
-      "amount": "2",
-      "price": "50.00",
-      "id": "561d1177-b2c5-4176-9d4b-784e7f471000"
-    },
-    {
-      "product": "feijao",
-      "amount": "2",
-      "price": "16.20",
-      "id": "182803a9-20dc-4e84-8333-ac1404d29935"
-    },
-    {
-      "product": "oleo",
-      "amount": "1",
-      "price": "6.30",
-      "id": "798606e7-ac42-4a3e-88b1-0c623fd048ad"
-    },
     {
       "product": "Leite de caixa",
       "amount": "1",
